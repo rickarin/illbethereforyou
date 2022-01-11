@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB2D02ED-EFD6-DD08-23C0-4E5BCB2A7B30" name="TBL_EPISODIOS">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:13:27 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_episodio" id="D2A5BBDF-E368-B23A-1B77-DFFAF18B825D">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_SERIE_id_serie" id="BC269A1E-845B-C1D1-2E48-3CEF935A89F5">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:38 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CB936E8-ABF7-7124-1EF4-F5A80120FB0A" referredColumn="9482D6C4-B9F3-5879-E3A8-E60972C80769"/>
+</associations>
+</Column>
+<Column name="TBL_TEMPORADA_id_temporada" id="691E07EC-30B6-E1C4-D1B8-2E7F09AFE560">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:21:57 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8AE0404-EAF1-7E71-DC55-D8447D459249" referredColumn="BF330569-8A4A-BECB-ED1C-90D5949EA999"/>
+</associations>
+</Column>
+<Column name="num_in_season" id="BE089AB5-9C18-8F15-7AAD-FBB52DAE539F">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_overall" id="8FF344C1-B371-AE0C-7202-0559401934AB">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="27AF096F-411B-8828-A129-15D6FAB2E827">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="directed_by" id="EA524075-6A7C-2B1A-CB06-CA002B1316EB">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="written_by" id="F62C2B9E-A1C2-AACC-AEAB-9BA9F121A9C3">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="original_air_date" id="C8C7178F-F7ED-7DB9-02F9-C57E71DCE5C1">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="us_viewers" id="FAD41AA0-0067-F007-3364-B3F67854AC79">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="E01ACA93-980E-D257-D033-17D170DFAEB6">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A309989-8308-0B4D-A58B-CFB47DAF8B68" name="TBL_EPISODIOS_PK">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:17:00 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2A5BBDF-E368-B23A-1B77-DFFAF18B825D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA2A0626-358C-E27F-1E16-9BF534B5942C" name="TBL_EPISODIOS_TBL_SERIE_FK">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:19:10 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC269A1E-845B-C1D1-2E48-3CEF935A89F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33DB7B01-8BA3-74C7-0897-E64FD10FC58F" name="TBL_EPISODIOS_TBL_TEMPORADA_FK">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:21:57 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="691E07EC-30B6-E1C4-D1B8-2E7F09AFE560"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

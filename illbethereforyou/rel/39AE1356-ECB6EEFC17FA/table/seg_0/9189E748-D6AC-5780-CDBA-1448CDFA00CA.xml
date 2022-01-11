@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9189E748-D6AC-5780-CDBA-1448CDFA00CA" name="TBL_SERIE">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:11:04 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_serie" id="9482D6C4-B9F3-5879-E3A8-E60972C80769">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:13:23 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_serie" id="20654DB9-3CFE-71DA-5E39-2F6B71C22EAA">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:13:23 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="127741EC-3618-FE28-C0D0-2D573855DC45" name="TBL_SERIE_PK">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:13:23 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9482D6C4-B9F3-5879-E3A8-E60972C80769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

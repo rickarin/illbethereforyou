@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8808A33-50E1-0AEA-78C7-7B4304AF4054" name="TBL_IMDB">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:22:22 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_imdb" id="0C871313-B356-1FC8-864A-2021D10B2921">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:23:04 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_EPISODIOS_id_episodio" id="E525FAF6-1B3C-6C73-1DAA-DA759A46E142">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:23:10 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="434D23C4-2B39-028D-FA95-71DBCA2D54E5" referredColumn="D2A5BBDF-E368-B23A-1B77-DFFAF18B825D"/>
+</associations>
+</Column>
+<Column name="imdb_rating" id="D0C40077-1B53-7D77-F8C1-95884CDBF813">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:23:04 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_votes" id="BBCA2653-91AD-A525-913D-1B65BF45CA7F">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:23:04 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="391D653B-1638-DCE1-F290-35429E016F55" name="TBL_IMDB_PK">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:23:04 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C871313-B356-1FC8-864A-2021D10B2921"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="227873B1-0050-90ED-441A-F6107C757C8A" name="TBL_IMDB_TBL_EPISODIOS_FK">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:23:10 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E525FAF6-1B3C-6C73-1DAA-DA759A46E142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

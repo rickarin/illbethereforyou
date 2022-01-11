@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="434D23C4-2B39-028D-FA95-71DBCA2D54E5" containerWithKeyObject="A8808A33-50E1-0AEA-78C7-7B4304AF4054" localFKIndex="227873B1-0050-90ED-441A-F6107C757C8A" name="TBL_IMDB_TBL_EPISODIOS_FK">
+<createdBy>x3bah</createdBy>
+<createdTime>2022-01-11 23:23:10 UTC</createdTime>
+<ownerDesignName>illbethereforyou</ownerDesignName>
+<referredTableLongName>TBL_EPISODIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CB2D02ED-EFD6-DD08-23C0-4E5BCB2A7B30</referredTableID>
+<keyObject>7A309989-8308-0B4D-A58B-CFB47DAF8B68</keyObject>
+<referredKeyID>7A309989-8308-0B4D-A58B-CFB47DAF8B68</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_episodio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
