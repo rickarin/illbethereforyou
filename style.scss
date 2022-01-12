@@ -1,0 +1,14 @@
+@font-face {
+    font-family: friends;
+    src: url('fonts/friends.TTF');
+ }
+
+
+.nav-purple{
+    background-color: #716297;
+    font-family: friends;
+    height: 104px;
+    a {
+        color: white;
+    }
+}

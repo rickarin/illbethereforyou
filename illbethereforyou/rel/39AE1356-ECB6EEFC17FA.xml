@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="illbethereforyou" id="39AE1356-C81B-8024-28F5-ECB6EEFC17FA" mainViewID="8A85129F-B828-5499-10E0-FDA8CF82EBBF">
-<createdBy>x3bah</createdBy>
-<createdTime>2022-01-11 23:06:10 UTC</createdTime>
-<ownerDesignName>illbethereforyou</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>

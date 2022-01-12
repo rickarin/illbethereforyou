@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="illbethereforyou" id="05E1A7D7-41C9-4972-599B-5B577CDCB323" version="3.5">
-<createdBy>x3bah</createdBy>
-<createdTime>2022-01-11 23:06:06 UTC</createdTime>
-<ownerDesignName>illbethereforyou</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>05E1A7D7-41C9-4972-599B-5B577CDCB323</designId>
-</OSDM_Design>
