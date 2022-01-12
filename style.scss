@@ -1,3 +1,20 @@
+// CORES
+$red-1: #E94144;
+$red0: #E91E21;
+$red1: #C21012;
+
+$purple-1: #817997;
+$purple0: #716297;
+$purple1: #504370;
+
+$blue-1: #6ACAE7;
+$blue0: #02B1E7;
+$blue1: #0094C2;
+
+$yellow-1: #FAD162;
+$yellow0: #FABD17;
+$yellow1: #D49D08;
+
 @font-face {
     font-family: friends;
     src: url('fonts/friends.TTF');
@@ -5,10 +22,97 @@
 
 
 .nav-purple{
-    background-color: #716297;
+    background-color: $purple0;
     font-family: friends;
     height: 104px;
     a {
         color: white;
     }
+    a:hover{
+        color: $red0;
+    }
+}
+.pagina-principal{
+    .banner{
+        padding: 48px 0 48px 0;
+        img{
+            width: 100%;
+        }
+    }
+}
+.content{
+    .col-md-2{
+        a{
+            color: black;
+            text-decoration: none;
+            .card{
+                border: none;
+                .card-body{
+                    padding: 0;
+                    .card-title{
+                        padding-top: 8px;
+                        font-family: friends;
+                        text-align: center;
+                        color: $blue0;
+                        &:hover{
+                            color: $purple0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.temporada{
+    .header{
+        padding: 48px 0 48px 0;
+    }
+    .titulo{
+        font-size: 60px;
+        font-family: friends;
+        color: $blue0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); 
+        text-align: center;
+    }
+    .accordion-item{
+        border: none;
+        .accordion-header{
+            .accordion-button{
+                color: white;
+                font-family: friends;
+                height: 48px;
+                margin-bottom: 24px;
+                border: none;
+                &:not(.collapsed){
+                    background-color: $yellow1;
+                    color: white;
+                }
+            }
+            .accordion-button.collapsed{
+                background-color: $yellow0;
+            }
+        }
+        .accordion-collapse{
+            .accordion-body{
+                padding: 0 0 32px 0;
+                .episodios{
+                    width: 100%;
+                    border: 1px solid black;
+                    thead{
+                        background-color: $yellow-1;
+                        font-family: friends;
+                        border: 1px solid black;
+                    }
+                    tbody tr td{
+                        border: 1px solid black;
+                    }
+                }
+            }
+        }
+
+    }
+
 }

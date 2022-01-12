@@ -12,7 +12,7 @@
 <!-- As a link -->
     <nav class="navbar nav-purple">
     <div class="container">
-        <a class="navbar-brand" href="#">I'll be there for you</a>
+        <a class="navbar-brand" href="index.php">I'll be there for you</a>
     </div>
     </nav>
 </header>

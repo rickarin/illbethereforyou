@@ -9,4 +9,79 @@
 }
 .nav-purple a {
   color: white;
+}
+.nav-purple a:hover {
+  color: #E91E21;
+}
+
+.pagina-principal .banner {
+  padding: 48px 0 48px 0;
+}
+.pagina-principal .banner img {
+  width: 100%;
+}
+
+.content .col-md-2 a {
+  color: black;
+  text-decoration: none;
+}
+.content .col-md-2 a .card {
+  border: none;
+}
+.content .col-md-2 a .card .card-body {
+  padding: 0;
+}
+.content .col-md-2 a .card .card-body .card-title {
+  padding-top: 8px;
+  font-family: friends;
+  text-align: center;
+  color: #02B1E7;
+}
+.content .col-md-2 a .card .card-body .card-title:hover {
+  color: #716297;
+}
+
+.temporada .header {
+  padding: 48px 0 48px 0;
+}
+.temporada .titulo {
+  font-size: 60px;
+  font-family: friends;
+  color: #02B1E7;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.temporada .accordion-item {
+  border: none;
+}
+.temporada .accordion-item .accordion-header .accordion-button {
+  color: white;
+  font-family: friends;
+  height: 48px;
+  margin-bottom: 24px;
+  border: none;
+}
+.temporada .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: #D49D08;
+  color: white;
+}
+.temporada .accordion-item .accordion-header .accordion-button.collapsed {
+  background-color: #FABD17;
+}
+.temporada .accordion-item .accordion-collapse .accordion-body {
+  padding: 0 0 32px 0;
+}
+.temporada .accordion-item .accordion-collapse .accordion-body .episodios {
+  width: 100%;
+  border: 1px solid black;
+}
+.temporada .accordion-item .accordion-collapse .accordion-body .episodios thead {
+  background-color: #FAD162;
+  font-family: friends;
+  border: 1px solid black;
+}
+.temporada .accordion-item .accordion-collapse .accordion-body .episodios tbody tr td {
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
