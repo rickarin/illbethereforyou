@@ -1,4 +1,5 @@
-<?php include ("header.php"); ?>
+<?php include ("header.php");
+      require_once 'banco-de-dados\banco-de-dados-escritor.php'; ?>
 
 <body>
     <div class="container temporada">
@@ -34,40 +35,20 @@
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                 <tbody>
+                                    <?php foreach ($escritor_Adam as $value) : ?>
                                     <tr>
                                         <td>
-                                            1
+                                            <?php echo $value['temporada'] ; ?> 
                                         </td>
                                         <td>
-                                            1
+                                            <?php echo $value['title']; ?>
                                         </td>
-                                        <td>
-                                            The One with Ross's New Girlfriend
-                                        </td>
+                                       <td>
+                                        <?php echo $value['original_air_day']; ?>
+                                      </td>
                                     </tr>
-                                    <tr>
-                                        <td>
-                                            1
-                                        </td>
-                                        <td>
-                                            1
-                                        </td>
-                                        <td>
-                                            The One with Ross's New Girlfriend
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            1
-                                        </td>
-                                        <td>
-                                            1
-                                        </td>
-                                        <td>
-                                            The One with Ross's New Girlfriend
-                                        </td>
-                                    </tr>
+                                    <?php endforeach;  ?>
                                 </tbody>
                             </table>
                         </div>
@@ -81,7 +62,36 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-
+                            <table class="episodios">
+                                <thead>
+                                    <tr>
+                                        <th> 
+                                            temporada
+                                        </th>
+                                        <th>
+                                            episodio
+                                        </th>
+                                        <th>
+                                            nome
+                                        </th>
+                                    </tr>
+                                </thead>
+                                 <tbody>
+                                    <?php foreach ($escritor_Jeffrey as $value) : ?>
+                                    <tr>
+                                        <td>
+                                            <?php echo $value['temporada'] ; ?> 
+                                        </td>
+                                        <td>
+                                            <?php echo $value['title']; ?>
+                                        </td>
+                                       <td>
+                                        <?php echo $value['original_air_day']; ?>
+                                      </td>
+                                    </tr>
+                                    <?php endforeach;  ?>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -93,7 +103,36 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-
+                            <table class="episodios">
+                                <thead>
+                                    <tr>
+                                        <th> 
+                                            temporada
+                                        </th>
+                                        <th>
+                                            episodio
+                                        </th>
+                                        <th>
+                                            nome
+                                        </th>
+                                    </tr>
+                                </thead>
+                                 <tbody>
+                                    <?php foreach ($escritor_Mike as $value) : ?>
+                                    <tr>
+                                        <td>
+                                            <?php echo $value['temporada'] ; ?> 
+                                        </td>
+                                        <td>
+                                            <?php echo $value['title']; ?>
+                                        </td>
+                                       <td>
+                                        <?php echo $value['original_air_day']; ?>
+                                      </td>
+                                    </tr>
+                                    <?php endforeach;  ?>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
